@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>苏宁易购</title>
+  <link rel="stylesheet" href="./css/sy.css">
+  <!-- <link rel="stylesheet" href="./assets/pagination/pagination.css"> -->
+  <link rel="stylesheet" href="./css/fllb.css">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./assets/pagination/pagination.css">
+  <style>
+    /* .head>p {
+      
+      width: 60px;
+      height: 40px;
+      background-color: #ff8000;
+      border: none;
+      margin-top: 10px;
+      margin-right: 30px;
+      color: #fff;
+
+      border-radius: 10px;
+    } */
+    .head>a{
+      display: block;
+      width: 60px;
+      height: 40px;
+      background-color: #ff8000;
+      border: none;
+      margin-top: 10px;
+      margin-right: 30px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="head">
+    <img src="https://res.suning.cn/project/passport/login/b2c_V7/image/header190-60.png" alt="">
+    <form>
+      <input type="text" class="search" value="" />
+      <input type="submit" class=" btn-new" value="搜索" />
+    </form>
+    <a href="./cart.html">购物车</a>
+  </div>
+  <div class="lbtbj"></div>
+  <div class="banner">
+    <ul class="imgBox">
+      <li data-needbg="true" style="background:#a7030c">
+
+        <img src="https://image1.suning.cn/uimg/cms/img/161033757088428739.jpg">
+
+      </li>
+      <li data-needbg="true" style="background:#b50d0d">
+
+        <img src="https://image5.suning.cn/uimg/cms/img/161009962543963472.jpg">
+
+      </li>
+      <li data-needbg="true" d-color="#027fff">
+
+        <img
+          src="https://oss.suning.com/aps/aps_learning/iwogh/2021/01/08/19/iwoghBannerPicture/cd59b038ae0c4932992e6ca95f7c3b4b.png?format=is_3le">
+
+      </li>
+      <li data-needbg="true" d-color="#3e52e7">
+
+        <img
+          src="https://oss.suning.com/aps/aps_learning/iwogh/2021/01/05/11/iwoghBannerPicture/c1bf80f0467141a2b7a05f75308a0e7e.png?format=is_3le">
+
+      </li>
+      <li data-needbg="true" d-color="#e13301">
+
+        <img
+          src="https://oss.suning.com/aps/aps_learning/iwogh/2021/01/05/11/iwoghBannerPicture/fba3c01c39c349ffa9bfe199275529b7.png?format=is_3le">
+
+      </li>
+      <li data-needbg="true" d-color="#0d37a3">
+
+        <img
+          src="https://oss.suning.com/aps/aps_learning/iwogh/2021/01/05/11/iwoghBannerPicture/c5b14080eaa441f88d7d2d362599dd38.png?format=is_3le">
+
+      </li>
+      <li data-needbg="true" d-color="#ff4f01">
+
+        <img
+          src="https://oss.suning.com/adpp/creative_kit/material/picture/20210104-cd97f63d07864f4b92ff6c0d4f763ad8bb8b037c68f74ac0.jpg">
+
+      </li>
+      <li data-needbg="true" d-color="#00b7df">
+
+        <img
+          src="https://oss.suning.com/adpp/creative_kit/material/picture/20210108-48c85918594b4ca28d2e3809cb99109e56be5aec59df4347.jpg">
+
+      </li>
+    </ul>
+    <ol class="pointBox">
+    </ol>
+    <div class="leftRight">
+      <div class="left">
+        <</div>
+          <div class="right">></div>
+      </div>
+    </div>
+
+    <!-- ================================================分类列表================================================================ -->
+    <div class="info filterinfo container">
+      <div class="panel panel-success">
+        <div class="panel-body">
+          <ul>
+            <li class="cat_one">
+              <div class="left">一级分类</div>
+              <div class="right">
+                <span class="active">大家电</span>
+                <span>nihao</span>
+                <span>nihao</span>
+                <span>nihao</span>
+                <span>nihao</span>
+              </div>
+            </li>
+            <li class="cat_two">
+              <div class="left">二级分类</div>
+              <div class="right">
+                <span class="active">全部</span>
+              </div>
+            </li>
+            <li class="cat_three">
+              <div class="left">三级分类</div>
+              <div class="right">
+                <span class="active">全部</span>
+              </div>
+            </li>
+            <li class="sort_list">
+              <div class="left">排序方式</div>
+              <div class="right">
+                <span data-sort="id" class="active">综合</span>
+                <span data-sort="price">价格</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="goodsList container">
+      <ul class="">
+        <!-- js 渲染 -->
+      </ul>
+    </div>
+    <div class="info pagiInfo container">
+      <div class="panel panel-warning">
+        <div class="panel-body pagination">
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="https://image2.suning.cn/uimg/cms/img/154233632056897763.png" alt="">
+    </div>
+    <script src="./js/sy.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./assets/jquery/jquery.js"></script>
+    <script src="./assets/pagination/pagination.js"></script>
+    <script src="./js/fllb.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
